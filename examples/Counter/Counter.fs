@@ -1,4 +1,4 @@
-module HelloWorld
+module Counter
 
 open Browser.Dom
 

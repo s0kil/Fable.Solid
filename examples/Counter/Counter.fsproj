@@ -6,7 +6,7 @@
         <ProjectReference Include="../../src/Fable.Solid/Fable.Solid.fsproj"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="HelloWorld.fs"/>
+        <Compile Include="Counter.fs"/>
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Fable.Browser.Dom" Version="2.2.0"/>
