@@ -1,0 +1,26 @@
+{
+  "name": "HelloWorld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HelloWorld.fs.js",
+  "scripts": {
+    "start": "dotnet fable watch --run webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-preset-solid": "^0.23.8",
+    "solid-js": "^0.23.9",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.0.0-beta.4"
+  }
+}

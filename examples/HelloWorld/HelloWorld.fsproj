@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="../../src/Fable.Solid/Fable.Solid.fsproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="HelloWorld.fs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Browser.Dom" Version="2.2.0"/>
+        <PackageReference Include="Fable.Core" Version="3.2.2"/>
+    </ItemGroup>
+</Project>
