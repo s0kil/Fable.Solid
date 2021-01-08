@@ -1,3 +1,3 @@
 # Fable.Solid
 
-> Absolutely Solid Fable Integration
+> Absolutely [Solid](https://github.com/ryansolid/solid) [Fable](https://github.com/fable-compiler/fable) Integration
