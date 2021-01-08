@@ -1,3 +1,3 @@
 # Fable.Solid
 
-> Absolutely [Solid](https://github.com/ryansolid/solid) [Fable](https://github.com/fable-compiler/fable) Integration
+> [Fable](https://github.com/fable-compiler/fable) Bindings For [Solid](https://github.com/ryansolid/solid) With JSX Output
