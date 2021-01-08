@@ -290,3 +290,6 @@ __pycache__/
 *.xsd.cs
 .fable
 .ionide
+
+# Fable Output
+**/*.fs.js
