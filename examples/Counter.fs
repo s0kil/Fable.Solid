@@ -1,11 +1,11 @@
+// https://codesandbox.io/s/8no2n9k94l
 module Counter
 
+open Fable.Solid
+open Fable.Solid.Web
 open Browser.Dom
 
-open Solid
-open Solid.Web
-
-let ReactiveCounter =
+let App () =
     let (count, setCount) = createSignal (0)
 
     let timer =
@@ -13,7 +13,6 @@ let ReactiveCounter =
 
     onCleanup (fun () -> window.clearInterval (timer))
 
-    Html.div (count ())
+    Html.div (Html.text (count ()))
 
-let Application () = ReactiveCounter
-render Application (document.querySelector "#root")
+render App (document.querySelector "#root")

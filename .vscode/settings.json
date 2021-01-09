@@ -19,7 +19,8 @@
         "**/bin": false,
         "**/obj": false,
         "node_modules": false,
-        "Nuget.Config": false
+        "Nuget.Config": false,
+        "**/.fable": false
     },
     "explorerExclude.backup": {
         "**/.git": true,
@@ -41,6 +42,7 @@
         "**/bin": true,
         "**/obj": true,
         "node_modules": true,
-        "Nuget.Config": true
+        "Nuget.Config": true,
+        "**/.fable": true
     }
 }
